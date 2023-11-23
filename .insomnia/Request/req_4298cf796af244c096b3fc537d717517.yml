@@ -1,7 +1,7 @@
 _id: req_4298cf796af244c096b3fc537d717517
 type: Request
-parentId: wrk_417b8db228364240b592b17307728f9f
-modified: 1700760873133
+parentId: fld_873bf5fa9db64958b53020a2155cb389
+modified: 1700762759841
 created: 1700744089324
 url: "{{ _.baseUrl }}/medicos"
 name: Cadastro de Médicos
@@ -11,10 +11,10 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"nome": "Gabriel Damico",
-    	"email": "gabriel@email.com",
-    	"crm": "123456",
-    	"especialidade": "ORTOPEDIA",
+    	"nome": "ZENO Damico",
+    	"email": "zeno@email.com",
+    	"crm": "654321",
+    	"especialidade": "CARDIOLOGIA",
     	"telefone": "24999999999",
     	"endereco": {
     		"logradouro": "Rua 1",
@@ -33,7 +33,7 @@ headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1700744089324
+metaSortKey: -1700762681882
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

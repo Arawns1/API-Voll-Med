@@ -1,0 +1,23 @@
+_id: req_5512a25f516645b094fd63cbca3eb76e
+type: Request
+parentId: fld_2ae906f35efa40a99f2da617fb71e83e
+modified: 1700768103161
+created: 1700768000019
+url: "{{ _.baseUrl }}/pacientes/0cb1a900-cc57-4113-a8b7-2d610e0f5aee"
+name: Excluir Paciente
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1700768000019
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

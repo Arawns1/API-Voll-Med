@@ -1,0 +1,23 @@
+_id: req_10122dd66f464e498c4f06c811ffb5fa
+type: Request
+parentId: fld_873bf5fa9db64958b53020a2155cb389
+modified: 1700766988698
+created: 1700766379574
+url: "{{ _.baseUrl }}/medicos/6f6f4ddd-4a34-4297-80a6-9b80eafb4a18"
+name: Excluir Médico
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1700766379574
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

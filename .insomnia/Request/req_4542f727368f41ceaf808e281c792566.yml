@@ -1,29 +1,18 @@
-_id: req_61e3cff0dc704b92bb3f3d68f2e0ceb3
+_id: req_4542f727368f41ceaf808e281c792566
 type: Request
 parentId: fld_2ae906f35efa40a99f2da617fb71e83e
-modified: 1700767637973
-created: 1700748007360
+modified: 1700767681036
+created: 1700767579623
 url: "{{ _.baseUrl }}/pacientes"
-name: Cadastro de Pacientes
+name: Atualizar Paciente
 description: ""
-method: POST
+method: PUT
 body:
   mimeType: application/json
   text: |-
     {
-    	"nome": "Paulo Damico",
-    	"email": "paulo.damico@email.com",
-    	"telefone": "24999999999",
-    	"cpf": "123.456.789-10",
-    	"endereco": {
-    		"logradouro": "Rua 1",
-    		"bairro": "bairro",
-    		"cep": "12345678",
-    		"cidade":"Brasilia",
-    		"uf": "DF",
-    		"numero":"1",
-    		"complemento":"casa"
-    	}
+    	"id": "0cb1a900-cc57-4113-a8b7-2d610e0f5aee",
+    	"telefone": "24981765628"
     }
 parameters: []
 headers:
@@ -32,7 +21,7 @@ headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1700762696223
+metaSortKey: -1700767579623
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
