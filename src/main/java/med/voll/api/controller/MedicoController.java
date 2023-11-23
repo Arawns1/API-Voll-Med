@@ -4,6 +4,7 @@ import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 import lombok.Getter;
 import med.voll.api.domain.Medico;
+import med.voll.api.dto.DadosAtualizacaoMedico;
 import med.voll.api.dto.DadosCadastroMedico;
 import med.voll.api.dto.DadosListagemMedicos;
 import med.voll.api.repository.MedicoRepository;
@@ -32,4 +33,12 @@ public class MedicoController {
     public void saveMedico(@RequestBody @Valid DadosCadastroMedico dados){
         repository.save(new Medico(dados));
     }
+
+    @PutMapping
+    @Transactional
+    public void updateMedico(@RequestBody @Valid DadosAtualizacaoMedico dados){
+        var medico = repository.getReferenceById(dados.id());
+        medico.atualizarInformacoes(dados);
+    }
+
 }
