@@ -19,6 +19,7 @@ public class Paciente {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
+    private boolean ativo;
     private String nome;
     private String email;
     private String cpf;
@@ -29,6 +30,7 @@ public class Paciente {
     private Endereco endereco;
 
     public Paciente(DadosCadastroPaciente dados) {
+        this.ativo = true;
         this.nome = dados.nome();
         this.email = dados.email();
         this.cpf = dados.cpf();
@@ -46,5 +48,8 @@ public class Paciente {
         if(dados.endereco() != null){
             this.endereco.atualizarInformacoes(dados.endereco());
         }
+    }
+    public void excluir() {
+        this.ativo = false;
     }
 }
