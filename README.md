@@ -3,7 +3,7 @@
 <img height="150" width="300" src="https://media.discordapp.net/attachments/929069726372597815/1177336834808877096/Screenshot_3.jpg?ex=6572235f&is=655fae5f&hm=ed895df53a7b3580dc56c41ea0d9b2abfe1e7ad5db3b9f3140201a14a6cd1a39&=&format=webp" />
 </h1>
 
-Projeto de API CRUD simples utilizando Spring Boot e aplicando a metodologia do Git Flow para melhor controle de versionamento. Desenvolvido durante curso na Alura
+Projeto de API CRUD simples utilizando Spring Boot e aplicando a metodologia do Git Flow junto ao uso do padrão de Conventional Commits e Semantic Versioning para melhor controle de versionamento e distribuição. Desenvolvido durante curso na Alura
 
 # 🛠 Tecnologias Utilizadas
  - SpringBoot com Maven
