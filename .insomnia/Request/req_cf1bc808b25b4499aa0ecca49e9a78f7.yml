@@ -1,0 +1,23 @@
+_id: req_cf1bc808b25b4499aa0ecca49e9a78f7
+type: Request
+parentId: fld_2ae906f35efa40a99f2da617fb71e83e
+modified: 1700764279864
+created: 1700764264079
+url: "{{ _.baseUrl }}/pacientes"
+name: Listar Pacientes
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1700764264079
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

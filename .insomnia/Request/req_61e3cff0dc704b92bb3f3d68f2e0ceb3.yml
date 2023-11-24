@@ -1,21 +1,20 @@
-_id: req_4298cf796af244c096b3fc537d717517
+_id: req_61e3cff0dc704b92bb3f3d68f2e0ceb3
 type: Request
-parentId: fld_873bf5fa9db64958b53020a2155cb389
-modified: 1700762759841
-created: 1700744089324
-url: "{{ _.baseUrl }}/medicos"
-name: Cadastro de Médicos
+parentId: fld_2ae906f35efa40a99f2da617fb71e83e
+modified: 1700767637973
+created: 1700748007360
+url: "{{ _.baseUrl }}/pacientes"
+name: Cadastro de Pacientes
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"nome": "ZENO Damico",
-    	"email": "zeno@email.com",
-    	"crm": "654321",
-    	"especialidade": "CARDIOLOGIA",
+    	"nome": "Paulo Damico",
+    	"email": "paulo.damico@email.com",
     	"telefone": "24999999999",
+    	"cpf": "123.456.789-10",
     	"endereco": {
     		"logradouro": "Rua 1",
     		"bairro": "bairro",
@@ -33,7 +32,7 @@ headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1700762681882
+metaSortKey: -1700762696223
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

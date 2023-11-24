@@ -1,0 +1,31 @@
+_id: req_3df5f7b87cf342c480a2398b3afc3524
+type: Request
+parentId: fld_873bf5fa9db64958b53020a2155cb389
+modified: 1700766156425
+created: 1700765317225
+url: "{{ _.baseUrl }}/medicos"
+name: Atualizar Medico
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": "baefce2d-f2e6-43ff-afc6-adf0877b8d60",
+    	"nome": "Zeno Damico"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1700765317225
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

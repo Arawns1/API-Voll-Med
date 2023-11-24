@@ -1,0 +1,31 @@
+_id: req_4542f727368f41ceaf808e281c792566
+type: Request
+parentId: fld_2ae906f35efa40a99f2da617fb71e83e
+modified: 1700767681036
+created: 1700767579623
+url: "{{ _.baseUrl }}/pacientes"
+name: Atualizar Paciente
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": "0cb1a900-cc57-4113-a8b7-2d610e0f5aee",
+    	"telefone": "24981765628"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1700767579623
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

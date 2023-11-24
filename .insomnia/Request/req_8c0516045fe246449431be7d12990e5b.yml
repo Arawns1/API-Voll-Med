@@ -1,0 +1,36 @@
+_id: req_8c0516045fe246449431be7d12990e5b
+type: Request
+parentId: fld_873bf5fa9db64958b53020a2155cb389
+modified: 1700763629567
+created: 1700762659572
+url: "{{ _.baseUrl }}/medicos"
+name: Listar Medicos
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_11173fdbc97242208fb55dfd5abd3412
+    name: size
+    value: "10"
+    description: ""
+    disabled: false
+  - id: pair_0b5b099352b54adab75009b48783270e
+    name: page
+    value: "0"
+    description: ""
+  - id: pair_01725e35e6154616b25813792dfda5d3
+    name: sort
+    value: nome,desc
+    description: ""
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1700762681982
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
