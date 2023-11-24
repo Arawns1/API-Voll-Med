@@ -1,19 +1,19 @@
-_id: req_4542f727368f41ceaf808e281c792566
+_id: req_013b784890c4447c80e41a10357e3829
 type: Request
-parentId: fld_2ae906f35efa40a99f2da617fb71e83e
-modified: 1700828028043
-created: 1700767579623
-url: "{{ _.baseUrl }}/pacientes"
-name: Atualizar Paciente
+parentId: fld_0f4422e74733470fa2cb52eebe7f1b76
+modified: 1700827689427
+created: 1700827601009
+url: "{{ _.baseUrl }}/medicos"
+name: Atualizar Medico
 description: ""
 method: PUT
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"id": "bcb03346-1b18-4233-ac3d-78d73fb432b8",
-    	"telefone": "24981765628"
-    }
+  text: |-2
+     {
+        	"id": "baefce2d-f2e6-43ff-afc6-adf0877b8d60",
+        	"nome": "Zeno Damico"
+     }
 parameters: []
 headers:
   - name: Content-Type
@@ -21,7 +21,7 @@ headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1700782834605.75
+metaSortKey: -1700767579623
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

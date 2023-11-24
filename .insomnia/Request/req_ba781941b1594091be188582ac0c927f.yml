@@ -1,19 +1,19 @@
-_id: req_5512a25f516645b094fd63cbca3eb76e
+_id: req_ba781941b1594091be188582ac0c927f
 type: Request
 parentId: fld_2ae906f35efa40a99f2da617fb71e83e
-modified: 1700828029622
-created: 1700768000019
-url: "{{ _.baseUrl }}/pacientes/494cbfe4-c046-4732-b893-1e8fd2867f88"
-name: Excluir Paciente
+modified: 1700829511054
+created: 1700827338366
+url: "{{ _.baseUrl }}/pacientes/0422f52a-c2e6-414a-85f5-e06206dfeca1"
+name: Listar Paciente por Id
 description: ""
-method: DELETE
+method: GET
 body: {}
 parameters: []
 headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1700764263979
+metaSortKey: -1700773549292.375
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

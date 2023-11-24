@@ -1,18 +1,18 @@
-_id: req_3df5f7b87cf342c480a2398b3afc3524
+_id: req_eca8f4ba27c94f82abd3b5b5394f4299
 type: Request
-parentId: fld_873bf5fa9db64958b53020a2155cb389
-modified: 1700766156425
-created: 1700765317225
-url: "{{ _.baseUrl }}/medicos"
-name: Atualizar Medico
+parentId: fld_080c66a9bae84b6d9b079af0ac7fbb87
+modified: 1700857928654
+created: 1700856626700
+url: "{{ _.baseUrl }}/auth/signup"
+name: Efetuar Cadastro
 description: ""
-method: PUT
+method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"id": "baefce2d-f2e6-43ff-afc6-adf0877b8d60",
-    	"nome": "Zeno Damico"
+    	"login": "gabriel.dam@voll.med",
+    	"senha": "123456"
     }
 parameters: []
 headers:
@@ -21,7 +21,7 @@ headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1700765317225
+metaSortKey: -1700856626700
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

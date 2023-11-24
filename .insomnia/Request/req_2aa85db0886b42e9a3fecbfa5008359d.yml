@@ -1,18 +1,18 @@
-_id: req_4542f727368f41ceaf808e281c792566
+_id: req_2aa85db0886b42e9a3fecbfa5008359d
 type: Request
-parentId: fld_2ae906f35efa40a99f2da617fb71e83e
-modified: 1700828028043
-created: 1700767579623
-url: "{{ _.baseUrl }}/pacientes"
-name: Atualizar Paciente
+parentId: fld_080c66a9bae84b6d9b079af0ac7fbb87
+modified: 1700857435803
+created: 1700846687377
+url: "{{ _.baseUrl }}/auth/login"
+name: Efetuar Login
 description: ""
-method: PUT
+method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"id": "bcb03346-1b18-4233-ac3d-78d73fb432b8",
-    	"telefone": "24981765628"
+    	"login": "gabriel22@voll.med",
+    	"senha": "123456"
     }
 parameters: []
 headers:
@@ -21,7 +21,7 @@ headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1700782834605.75
+metaSortKey: -1700846687377
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

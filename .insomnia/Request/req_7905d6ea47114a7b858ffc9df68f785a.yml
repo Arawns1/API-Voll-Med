@@ -1,19 +1,19 @@
-_id: req_10122dd66f464e498c4f06c811ffb5fa
+_id: req_7905d6ea47114a7b858ffc9df68f785a
 type: Request
-parentId: fld_873bf5fa9db64958b53020a2155cb389
-modified: 1700766988698
-created: 1700766379574
-url: "{{ _.baseUrl }}/medicos/6f6f4ddd-4a34-4297-80a6-9b80eafb4a18"
-name: Excluir Médico
+parentId: fld_0f4422e74733470fa2cb52eebe7f1b76
+modified: 1700829555162
+created: 1700827601027
+url: "{{ _.baseUrl }}/medicos/711d72fe-1a2b-4a43-94c1-8fe42706ae51"
+name: Listar Medico por Id
 description: ""
-method: DELETE
+method: GET
 body: {}
 parameters: []
 headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1700766379574
+metaSortKey: -1700762696123
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

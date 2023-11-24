@@ -1,0 +1,25 @@
+_id: req_671b4d930d0b451eb32c267df8444fe1
+type: Request
+parentId: fld_0f4422e74733470fa2cb52eebe7f1b76
+modified: 1700854516353
+created: 1700827600997
+url: "{{ _.baseUrl }}/medicos"
+name: Listar Medicos
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJBcGkgVm9sbC5tZWQiLCJzdWIiOiJnYWJyaWVsLmRhbWljb0B2b2xsLm1lZCIsImlkIjoiNmZlYzk0MmYtYjc1ZS00YTM5LWIwNjgtMTUxYjYwZjQ4YzE3IiwiZXhwIjoxNzAwODYxNzAyfQ.iJZ56U7lG5AU3RvwxjJUHG4BSoOIwWpYYzoP0FCh3v8
+metaSortKey: -1700768000119
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

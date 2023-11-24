@@ -1,0 +1,49 @@
+_id: req_d90c5c76e0f34cd49eeeffd5e4120d1d
+type: Request
+parentId: fld_0f4422e74733470fa2cb52eebe7f1b76
+modified: 1700830335826
+created: 1700827600982
+url: "{{ _.baseUrl }}/medicos"
+name: Cadastro de Medicos
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-2
+     {
+        	"nome": "josé Damico",
+        	"email": "jose.damico@email.com",
+        	"crm": "314423",
+        	"especialidade": "CARDIOLOGIA",
+        	"telefone": "24999999999",
+        	"endereco": {
+        		"logradouro": "Rua 1",
+        		"bairro": "bairro",
+        		"cep": "12345678",
+        		"cidade":"Brasilia",
+        		"uf": "DF",
+        		"numero":"1",
+        		"complemento":"casa"
+        	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_19dc35c38af642e4881008a500b52f4f
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_ff626503086b423ca34ab48d029b9861
+  - id: pair_5256231fa7d544b89a0833d51bdea1c6
+    name: Accept-Language
+    value: pt-br
+    description: ""
+authentication: {}
+metaSortKey: -1700767789871
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

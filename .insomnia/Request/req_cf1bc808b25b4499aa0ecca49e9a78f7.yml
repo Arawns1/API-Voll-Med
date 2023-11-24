@@ -1,7 +1,7 @@
 _id: req_cf1bc808b25b4499aa0ecca49e9a78f7
 type: Request
 parentId: fld_2ae906f35efa40a99f2da617fb71e83e
-modified: 1700764279864
+modified: 1700857938932
 created: 1700764264079
 url: "{{ _.baseUrl }}/pacientes"
 name: Listar Pacientes
@@ -12,8 +12,16 @@ parameters: []
 headers:
   - name: User-Agent
     value: insomnia/2023.5.8
-authentication: {}
-metaSortKey: -1700764264079
+  - id: pair_d4eda8bb7bc5432d8af268d04d29d0f8
+    name: ""
+    value: ""
+    description: ""
+authentication:
+  type: bearer
+  prefix: ""
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJBUEkgVm9sbC5tZWQiLCJzdWIiOiJnYWJyaWVsLmRhbUB2b2xsLm1lZCIsImlkIjoiZjUzYzkyN2EtY2E2Mi00NjhmLWE1ZTItMTBjZDIxMDc4M2I3IiwiZXhwIjoxNzAwODY1MTMxfQ.9mhHDMDQ_XGFXZE94LH-c3yX7GzKuYKl4CVRKtvfroE
+  disabled: false
+metaSortKey: -1700827338466
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
