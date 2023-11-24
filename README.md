@@ -9,6 +9,8 @@ Projeto de API CRUD simples utilizando Spring Boot e aplicando a metodologia do 
  - SpringBoot com Maven
  - Lombok
  - JPA Bean Validation
+ - Spring Security
+ - JWT Tokens
 
 # 📃 Diagrama
 ```mermaid
