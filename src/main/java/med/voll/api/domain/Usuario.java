@@ -2,6 +2,7 @@ package med.voll.api.domain;
 
 import jakarta.persistence.*;
 import lombok.*;
+import med.voll.api.dto.security.DadosAutenticacao;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -23,6 +24,11 @@ public class Usuario implements UserDetails {
     private UUID id;
     private String login;
     private String senha;
+
+    public Usuario(String login, String senha) {
+        this.login = login;
+        this.senha = senha;
+    }
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
