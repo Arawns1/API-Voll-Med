@@ -2,9 +2,8 @@ package med.voll.api.domain;
 
 import jakarta.persistence.*;
 import lombok.*;
-import med.voll.api.dto.DadosAtualizacaoPaciente;
-import med.voll.api.dto.DadosCadastroMedico;
-import med.voll.api.dto.DadosCadastroPaciente;
+import med.voll.api.dto.paciente.DadosAtualizacaoPaciente;
+import med.voll.api.dto.paciente.DadosCadastroPaciente;
 
 import java.util.UUID;
 
