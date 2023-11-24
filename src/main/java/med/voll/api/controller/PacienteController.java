@@ -27,6 +27,14 @@ public class PacienteController {
         Page<DadosListagemPacientes> page = repository.findAllByAtivoTrue(paginacao).map(DadosListagemPacientes::new);
         return ResponseEntity.ok(page);
     }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<DadosDetalhamentoPaciente> getPacienteById(@PathVariable UUID id){
+        Paciente paciente = repository.getReferenceById(id);
+        return ResponseEntity.ok(new DadosDetalhamentoPaciente(paciente));
+    }
+    
+
     @PostMapping
     @Transactional
     public ResponseEntity<DadosDetalhamentoPaciente> savePaciente(@RequestBody @Valid DadosCadastroPaciente dados, UriComponentsBuilder uriBuilder){
