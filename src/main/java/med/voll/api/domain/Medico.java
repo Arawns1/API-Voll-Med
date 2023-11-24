@@ -2,8 +2,8 @@ package med.voll.api.domain;
 
 import jakarta.persistence.*;
 import lombok.*;
-import med.voll.api.dto.DadosAtualizacaoMedico;
-import med.voll.api.dto.DadosCadastroMedico;
+import med.voll.api.dto.medico.DadosAtualizacaoMedico;
+import med.voll.api.dto.medico.DadosCadastroMedico;
 
 import java.util.UUID;
 @Table(name = "medicos")
