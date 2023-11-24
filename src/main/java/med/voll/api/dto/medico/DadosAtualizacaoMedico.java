@@ -1,7 +1,8 @@
-package med.voll.api.dto;
+package med.voll.api.dto.medico;
 
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotNull;
+import med.voll.api.dto.DadosEndereco;
 
 import java.util.UUID;
 

@@ -3,7 +3,10 @@ package med.voll.api.controller;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 import med.voll.api.domain.Paciente;
-import med.voll.api.dto.*;
+import med.voll.api.dto.paciente.DadosAtualizacaoPaciente;
+import med.voll.api.dto.paciente.DadosCadastroPaciente;
+import med.voll.api.dto.paciente.DadosDetalhamentoPaciente;
+import med.voll.api.dto.paciente.DadosListagemPacientes;
 import med.voll.api.repository.PacienteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -33,7 +36,6 @@ public class PacienteController {
         Paciente paciente = repository.getReferenceById(id);
         return ResponseEntity.ok(new DadosDetalhamentoPaciente(paciente));
     }
-    
 
     @PostMapping
     @Transactional
